@@ -1,0 +1,630 @@
+/*
+Theme Name: neotester
+Theme URI: http://www.neotester.ro
+Author: Iulian Donici
+Author URI: http://www.iuliandonici.ro
+Description: This is the main Wordpress theme on which our initial project will be based upon.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: neotester
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+idtheme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import url("normalize.css");
+
+#masthead {
+	margin-left: 0px;
+}
+
+#masthead div.site-branding img {
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+}
+#masthead div.site-branding p.site-description {
+	color: black;
+	margin: 15px 30px 10px 0px;
+	float: right;
+}
+#page {
+	max-width: 940px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: black;
+	font-size: 18px;
+	line-height: 1.175em;
+	font-family: Verdana,Geneva,sans-serif;
+	border-bottom: solid 2px #36DB00;
+	border-left: solid 2px #36DB00;
+	border-right: solid 2px #36DB00;
+	border-radius: 5px;
+}
+
+#primary {
+	width: 68%;
+	float: left;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
+#secondary {
+	width: 30%;
+	float: right;
+	padding-right: 5px;
+	clear: right;
+	display: block;
+	margin-top: 0px;
+	height: 100%;
+}
+nav#site-navigation {
+	background-color: #36DB00;
+}
+ul#menu-meniu_1 {
+	margin-left: 0px;
+}
+ul#menu-meniu_1 li {
+	margin-right: 15px;
+	padding: 11px 10px 10px 10px;
+	border-radius: 10px;
+}
+ul#menu-meniu_1 li a:link,
+ul#menu-meniu_1 li a:visited {
+	background-color: white;
+	border-radius: 5px;
+	color: #36B200;
+	padding: 3px 6px 3px 6px;
+	text-transform: uppercase;
+}
+ul#menu-meniu_1 li a:hover {
+	color: black;
+}
+
+header.entry-header a:link {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 32.4px;
+	color: #36B200;
+	text-decoration: none;
+}
+header.entry-header a:hover {
+	color: black;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 32.4px;
+	text-decoration: underline;
+}
+header.entry-header a:visited {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 32.4px;
+	color: #36B200;
+	text-decoration: none;
+}
+header.entry-header h1.entry-title,
+header.entry-header h2.entry-title {
+	color: #494949;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 32.4px;
+	margin-top: 15px;
+}
+header.entry-header h2.entry-title a:link,
+header.entry-header h2.entry-title a:visited {
+	color: #36B200;
+}
+header.entry-header h1.entry-title a:link,
+header.entry-header h1.entry-title a:visited {
+	color: #494949;
+	}
+header.entry-header h2.entry-title a:hover,
+header.entry-header h1.entry-title a:hover {
+	color: black;
+	 }
+div.entry-content p,
+div.entry-content ul li,
+div.entry-content ul li ul li,
+div.entry-content ul li ul li ul li,
+div.entry-content ol li,
+div.entry-content ol li ol li,
+div.entry-content ol li ol li ol li {
+	color: #3F3F3F;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 4px;
+	margin: -15px 0px 25px 0px;
+}
+div.entry-content blockquote {
+	font-style: italic;
+}
+div.entry-content ol {
+	margin-left: 5px;
+}
+
+div.entry-content img {
+	padding: 15px 0px 0px 0px;
+	margin-left: 
+}
+
+div.entry-content h1 {
+	color: #494949;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 32.4px;
+	margin-top: -15px;
+}
+
+div.entry-content h2 {
+	color: #494949;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 30.4px;
+}
+
+div.entry-content h3 {
+	color: #494949;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 28.4px;
+	margin-top: -15px;
+}
+
+div.entry-content h4 {
+	color: #494949;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: 400;
+	font-weight: 300;
+	line-height: 26.4px;
+	margin-top: -20px;
+}
+
+div.entry-content h5 {
+	color: #494949;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 250;
+	line-height: 20.4px;
+	margin-top: -20px;
+}
+div.entry-content h6 {
+	color: #494949;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.4px;
+	margin-top: -24px;
+	margin-bottom: -10px;
+}
+div.entry-content h1 a:link,
+div.entry-content h1 a:visited,
+div.entry-content h2 a:link,
+div.entry-content h2 a:visited,
+div.entry-content h3 a:link,
+div.entry-content h3 a:visited,
+div.entry-content h4 a:link,
+div.entry-content h4 a:visited,
+div.entry-content h5 a:link,
+div.entry-content h5 a:visited,
+div.entry-content h6 a:link,
+div.entry-content h6 a:visited {
+	color: #36B200;
+	text-decoration: none;
+}
+div.entry-content h1 a:hover,
+div.entry-content h2 a:hover,
+div.entry-content h3 a:hover,
+div.entry-content h4 a:hover,
+div.entry-content h5 a:hover,
+div.entry-content h6 a:hover {
+	color: black;
+	text-decoration: underline;
+}
+header.entry-header div.entry-meta {
+	margin-top: -15px;
+	font-size: 12px;
+	padding-left: 0px;
+	color: gray;
+	text-transform: uppercase;
+}
+header.entry-header div.entry-meta a:link,
+header.entry-header div.entry-meta a:visited {
+	color: #36B200;
+	font-size: 12px;
+}
+header.entry-header div.entry-meta a:hover {
+	color: black;
+}
+header.page-header div.author_bio_page div.author_bio_page_info div.author_bio_page_details a:link,
+header.page-header a:visited,
+div.entry-content p a:link,
+div.entry-content p a:visited,
+div.entry-content ul li a:link,
+div.entry-content ul li a:visited,
+div.entry-content ul li ul li a:link,
+div.entry-content ul li ul li a:visited,
+div.entry-content ul li ul li ul li a:link,
+div.entry-content ul li ul li ul li a:visited,
+div.entry-content ol li a:link,
+div.entry-content ol li a:visited,
+div.entry-content ol li ol li a:link,
+div.entry-content ol li ol li a:visited,
+div.entry-content ol li ol li ol li a:link,
+div.entry-content ol li ol li ol li a:visited {
+	color: #36B200;
+	text-decoration: none;
+}
+header.page-header div.author_bio_page div.author_bio_page_info div.author_bio_page_details a:hover,
+div.entry-content p a:hover,
+div.entry-content ul li a:hover,
+div.entry-content ul li ul li a:hover,
+div.entry-content ul li ul li ul li a:hover,
+div.entry-content ol li a:hover,
+div.entry-content ol li ol li a:hover,
+div.entry-content ol li ol li ol li a:hover {
+	color: black;
+	text-decoration: underline;
+}
+div.entry-content ul {
+	margin-top: -20px;
+}
+div.entry-content ul li {
+	font-size: 17px;
+	margin-left: -45px;
+}
+
+div.entry-content ul li ul li{
+	margin-top: 25px;
+}
+div.tags p {
+	margin-bottom: -7px;
+	margin-top: 0px;
+}
+div.tags p a:link,
+div.tags p a:visited {
+	background-color: #36B200;
+	color: white;
+	font-size: 16px;
+	padding: 5px 5px 5px 5px;
+	border-radius: 4px 4px 4px 4px;
+}
+div.tags p a:hover {
+	color: black;
+	text-decoration: none;
+}
+div.entry-content a:link.more-link {
+	color: #36B200;
+	text-decoration: none;
+	font-size: 21px;
+	margin-bottom: -30px;
+}
+div.entry-content a:hover.more-link {
+	color: black;
+	text-decoration: underline;
+}
+div.share-top-article-only-on-homepage {
+	margin-top: -15px;
+	margin-bottom: 10px;
+} 
+div.share-bottom-article {
+	margin-top: -15px;
+} 
+div.share-bottom-article h4 {
+	margin-bottom: 5px;
+}
+a:visited.more-link {
+	color: #36B200;
+	text-decoration: none;
+	font-size: 21px;
+	margin-bottom: -20px;
+}
+div.entry-content iframe {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+div.nav-previous a:link, div.nav-next a:link {
+	color: #36B200;
+	text-decoration: none;
+}
+div.nav-previous a:visited, div.nav-next a:visited {
+	color: #36B200;
+}
+div.nav-previous a:hover, div.nav-next a:hover {
+	color: black;
+}
+span.comments-link a:link,
+span.comments-link a:visited {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	float: right;
+}
+span.comments-link a:hover {
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+}
+h2.comments-title {
+	font-size: 20px;
+}
+h2.widget-title {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+aside#secondary h1,
+aside#secondary h2,
+aside#secondary h3,
+aside#secondary h4,
+aside#secondary h5,
+aside#secondary h6 {
+	text-align: left;
+	padding-top: 5px;
+	color: #494949;
+}
+aside#secondary div.search {
+	padding-left: 0px;
+}
+aside#secondary div.search input#searchsubmit {
+	margin-top: 10px;
+}
+aside#secondary.widget-area ul li {
+	margin-left: -85px;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+aside#secondary.widget-area img {
+	display: block;
+	margin: 0 auto;
+}
+aside#secondary.widget-area img.social{
+	float: left;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+aside#secondary.widget-area input#mc-embedded-subscribe {
+		margin-bottom: 10px;
+	}
+
+aside#secondary.widget-area ul li a:link,
+aside#secondary.widget-area ul li a:visited {
+	color: #36B200;
+	text-decoration: none;
+}
+aside#secondary.widget-area ul li a:hover {
+	color: black;
+}
+aside#secondary div#others_read {
+	margin: -15px 0px 0px 0px;
+}
+aside#secondary div#others_read div.thumbs {
+	float: left;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+}
+aside#secondary div#others_read div.thumbs img {
+	display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+aside#secondary div#others_read div.title_article {
+	float: right;
+	width: 165px;
+	height: 100px;
+    line-height: 100px;
+}
+
+aside#secondary div#others_read div.title_article a:link,
+aside#secondary div#others_read div.title_article a:visited {
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+aside#secondary div#others_read div.title_article a:hover {
+	color: #36B200;
+}
+div.wp-pagenavi {
+	text-align: center;
+	border: solid 1px silver;
+	border-radius: 10px;
+	font-size: 18pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+div.wp-pagenavi a:link,
+div.wp-pagenavi a:visited {
+	color: #36B200;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+div.wp-pagenavi a:hover {
+	color: black;
+}
+div.site-info {
+	margin-top: 20px;
+	font-size: 12pt;
+	text-align: center;
+}
+div.site-info a:link,
+div.site-info a:visited {
+	color: #36B200;
+	text-decoration: none;
+}
+div.site-info a:hover {
+	color: black;
+}
+/* Add a style to the author's bio at the end of each article */
+.author_bio_section{
+	background: none repeat scroll 0 0 #F5F5F5;
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+
+.author_name{
+font-size:16px;
+font-weight: bold;
+}
+
+.author_details img {
+float: left;
+margin: 1% 2% 1% 2%;
+}
+.author_bio_page {
+margin-top: 20px;
+padding: 15px;
+}
+.author_bio_page_info img {
+float: left;
+margin: 1% 2% -2% 2%;
+border: solid 2px #ccc;
+}
+.author_bio_page_details {
+	font-size:14px;
+	padding-top: 10px;
+}
+.author_role {
+	font-size: 16px;
+	margin-top: 0%;
+	margin-left: 4%;
+}
+
+div#author_articles div.author_articles_title_article {
+	margin: 2%;
+} 
+div#author_articles div.author_articles_title_article a:link,
+div#author_articles div.author_articles_title_article a:visited {
+	color: #36B200;
+	font-size: 19px;
+	text-decoration: none;
+}
+div#author_articles div.author_articles_title_article a:hover {
+	color: black;
+}
+div#author_articles div.author_articles_publish_date,
+div#author_articles div.author_articles_tags {
+	margin-left: 5%;
+	color: gray;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+div#author_articles div.author_articles_tags a:link, 
+div#author_articles div.author_articles_tags a:visited {
+	margin-left: 0.5%;
+	color: gray;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: #36B200;
+	color: white;
+	padding: 1px 3px 2px 3px;
+	border-radius: 4px 4px 4px 4px;
+	
+}
+div#author_articles div.author_articles_content {
+	font-size: 11px;
+	padding-left: 20px;
+}
+div#author_articles div.author_articles_content {
+	font-size: 11px;
+	padding-left: 20px;
+}
+div#author_articles div.author_articles_content a:link,
+div#author_articles div.author_articles_content a:visited {
+	font-size: 11px;
+	color: #36B200;
+}
+div#author_articles div.share-top-article-only-on-author {
+	margin: 5px 0px 0px 25px;
+} 
+div#author_articles div.share-top-article-only-on-author img {
+	width: 3.5%;
+	height: 3.5%;
+}
+div#author_articles div.share-top-article-only-on-author blockquote {
+	text-transform: italic;
+}
+@media (max-width: 600px) {
+	#primary {
+		width: 99.5%;
+		float: left;
+	}
+	#secondary {
+		width: 100%;
+		float: left;
+	}
+	input.search-field {
+		width: 100%;
+		margin: 10px 0px 5px 10px;
+		border: solid 1px red;
+	}
+}
+@media (max-width: 700px) {
+	aside#secondary.widget-area img.social {
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	width: 25%;	
+	}
+	input.search-field {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	input.email {
+		width: 99%;
+		margin-left: 3px;
+	}
+	input#mc-embedded-subscribe {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 900px) {
+	aside#secondary.widget-area img.social {
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	width: 25%;	
+	}
+	input.search-field {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	input.email {
+		width: 99%;
+		margin-left: 3px;
+	}
+	input#mc-embedded-subscribe {
+		margin-bottom: 10px;
+	}
+}
